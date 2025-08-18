@@ -12,6 +12,7 @@ export default {
         waterTank: 2000,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     1: {
         caption: 'LF 10',
@@ -24,6 +25,7 @@ export default {
         waterTank: 1200,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     2: {
         caption: 'DLK 23',
@@ -76,6 +78,7 @@ export default {
         waterTank: 600,
         pumpCapacity: 800,
         pumpType: 'fire',
+        foamTank: 150,
     },
     7: {
         caption: 'LF 20/16',
@@ -88,6 +91,7 @@ export default {
         waterTank: 1600,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     8: {
         caption: 'LF 10/6',
@@ -100,6 +104,7 @@ export default {
         waterTank: 600,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     9: {
         caption: 'LF 16-TS',
@@ -112,6 +117,7 @@ export default {
         waterTank: 0,
         pumpCapacity: 1600,
         pumpType: 'fire',
+        foamTank: 150,
     },
     10: {
         caption: 'GW-Öl',
@@ -214,6 +220,7 @@ export default {
         waterTank: 2000,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     18: {
         caption: 'TLF 3000',
@@ -226,6 +233,7 @@ export default {
         waterTank: 3000,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     19: {
         caption: 'TLF 8/8',
@@ -238,6 +246,7 @@ export default {
         waterTank: 800,
         pumpCapacity: 800,
         pumpType: 'fire',
+        foamTank: 150,
     },
     20: {
         caption: 'TLF 8/18',
@@ -250,6 +259,7 @@ export default {
         waterTank: 1800,
         pumpCapacity: 800,
         pumpType: 'fire',
+        foamTank: 150,
     },
     21: {
         caption: 'TLF 16/24-Tr',
@@ -262,6 +272,7 @@ export default {
         waterTank: 2400,
         pumpCapacity: 1600,
         pumpType: 'fire',
+        foamTank: 150,
     },
     22: {
         caption: 'TLF 16/25',
@@ -274,6 +285,7 @@ export default {
         waterTank: 2400,
         pumpCapacity: 1600,
         pumpType: 'fire',
+        foamTank: 750,
     },
     23: {
         caption: 'TLF 16/45',
@@ -286,6 +298,7 @@ export default {
         waterTank: 4500,
         pumpCapacity: 1600,
         pumpType: 'fire',
+        foamTank: 750,
     },
     24: {
         caption: 'TLF 20/40',
@@ -298,6 +311,7 @@ export default {
         waterTank: 4000,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     25: {
         caption: 'TLF 20/40-SL',
@@ -310,6 +324,7 @@ export default {
         waterTank: 4000,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 750,
     },
     26: {
         caption: 'TLF 16',
@@ -322,6 +337,7 @@ export default {
         waterTank: 1800,
         pumpCapacity: 1600,
         pumpType: 'fire',
+        foamTank: 150,
     },
     27: {
         caption: 'GW-Gefahrgut',
@@ -388,6 +404,7 @@ export default {
         waterTank: 1600,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     31: {
         caption: 'RTH',
@@ -497,6 +514,7 @@ export default {
         waterTank: 500,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     38: {
         caption: 'KTW',
@@ -1181,6 +1199,7 @@ export default {
         icon: 'truck-moving',
         possibleBuildings: [0, 18],
         waterTank: 12_000,
+        foamTank: 1500,
     },
     76: {
         caption: 'Rettungstreppe',
@@ -1355,6 +1374,7 @@ export default {
         icon: 'truck-moving',
         possibleBuildings: [0, 18],
         waterTank: 5000,
+        foamTank: 3000,
     },
     85: {
         caption: 'TM 50',
@@ -1405,6 +1425,7 @@ export default {
         waterTank: 4000,
         pumpCapacity: 2000,
         pumpType: 'fire',
+        foamTank: 500,
     },
     88: {
         caption: 'KLF',
@@ -1417,6 +1438,7 @@ export default {
         waterTank: 500,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     89: {
         caption: 'MLF',
@@ -1429,6 +1451,7 @@ export default {
         waterTank: 1000,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     90: {
         caption: 'HLF 10',
@@ -1441,6 +1464,7 @@ export default {
         waterTank: 1000,
         pumpCapacity: 1000,
         pumpType: 'fire',
+        foamTank: 150,
     },
     91: {
         caption: 'Rettungshundefahrzeug',
@@ -1731,7 +1755,7 @@ export default {
         staff: { min: 1, max: 6 },
         icon: 'truck-ramp-box',
         possibleBuildings: [0, 18],
-        equipmentCapacity: 10,
+        equipmentCapacity: 15,
     },
     107: {
         caption: 'LF-L',
@@ -1744,7 +1768,8 @@ export default {
         waterTank: 2000,
         pumpCapacity: 2000,
         pumpType: 'fire',
-        equipmentCapacity: 10,
+        equipmentCapacity: 15,
+        foamTank: 150,
     },
     108: {
         caption: 'AB-L',
@@ -1884,10 +1909,10 @@ export default {
         },
         icon: 'trailer',
         special:
-            'Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (HLF 10, RW, GW-Gefahrgut, Dekon-P, WLF, GW-L1, GW-L2, LF 8/6, LF 10/6, LF 16-TS, SW 2000-Tr, SW Kats, TLF 3000, TLF 16/24-Tr, TLF 16/25, GW-Werkfeuerwehr)',
+            'Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (HLF 10, RW, GW-Gefahrgut, Dekon-P, WLF, GW-L1, GW-L2, LF 8/6, LF 10/6, LF 16-TS, SW 2000-Tr, SW Kats, TLF 3000, TLF 16/24-Tr, TLF 16/25, GW-Werkfeuerwehr, GW-A)',
         isTrailer: true,
         tractiveVehicles: [
-            90, 4, 27, 53, 104, 105, 6, 8, 9, 15, 16, 18, 21, 22, 83,
+            90, 4, 27, 53, 104, 105, 6, 8, 9, 15, 16, 18, 21, 22, 83, 5,
         ],
         possibleBuildings: [0, 18],
     },
@@ -1955,6 +1980,7 @@ export default {
         icon: 'truck-moving',
         possibleBuildings: [0, 18],
         waterTank: 10_000,
+        foamTank: 1500,
     },
     122: {
         caption: 'LKW 7 Lbw (FGr E)',
@@ -2558,8 +2584,8 @@ export default {
         credits: 10_000,
         coins: 15,
         staff: {
-            min: 4,
-            max: 4,
+            min: 0,
+            max: 0,
             training: {
                 Rettungsdienst: {
                     mountain_height_rescue: {
@@ -2732,6 +2758,7 @@ export default {
         waterTank: 1460,
         pumpCapacity: 2400,
         pumpType: 'fire',
+        foamTank: 150,
     },
     164: {
         caption: 'AB-Schiene',
@@ -2762,5 +2789,186 @@ export default {
         },
         icon: 'bus',
         possibleBuildings: [11],
+    },
+    166: {
+        caption: 'PTLF 4000',
+        color: '#992b22',
+        credits: 10_000,
+        coins: 15,
+        staff: {
+            min: 1,
+            max: 2,
+        },
+        icon: 'truck',
+        possibleBuildings: [0, 18],
+        waterTank: 5000,
+        foamTank: 1000,
+    },
+    167: {
+        caption: 'SLF',
+        color: '#992b22',
+        credits: 10_000,
+        coins: 15,
+        staff: {
+            min: 1,
+            max: 2,
+        },
+        icon: 'truck',
+        possibleBuildings: [0, 18],
+        waterTank: 3500,
+        foamTank: 5000,
+    },
+    168: {
+        caption: 'Anh Sonderlöschmittel',
+        color: '#b62e2e',
+        credits: 5000,
+        coins: 10,
+        staff: {
+            min: 0,
+            max: 0,
+        },
+        icon: 'trailer',
+        special:
+            'Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (HLF 10, RW, GW-Gefahrgut, Dekon-P, GW-L1, GW-L2, LF 10, LF 8/6, LF 10/6, LF 16-TS, SW 2000-Tr, SW Kats, TLF 3000, TLF 16/24-Tr, TLF 16/25, MTW)',
+        isTrailer: true,
+        foamTank: 250,
+        tractiveVehicles: [
+            90, 4, 27, 53, 104, 105, 6, 8, 9, 15, 16, 18, 21, 22, 36,
+        ],
+        possibleBuildings: [0, 18],
+    },
+    169: {
+        caption: 'AB-Sonderlöschmittel',
+        color: '#992b22',
+        credits: 6000,
+        coins: 12,
+        staff: { min: 0, max: 0 },
+        icon: 'square',
+        possibleBuildings: [0, 18],
+        foamTank: 10_000,
+        isTrailer: true,
+        tractiveVehicles: [46],
+    },
+    170: {
+        caption: 'AB-Wasser/Schaum',
+        color: '#992b22',
+        credits: 6000,
+        coins: 12,
+        staff: { min: 0, max: 0 },
+        icon: 'square',
+        possibleBuildings: [0, 18],
+        foamTank: 5000,
+        waterTank: 3000,
+        isTrailer: true,
+        tractiveVehicles: [46],
+    },
+    171: {
+        caption: 'GW TeSi',
+        color: '#a34100',
+        credits: 35_000,
+        coins: 25,
+        staff: {
+            min: 1,
+            max: 5,
+            training: {
+                Rettungsdienst: {
+                    disaster_response_technology: {
+                        all: true,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [12],
+        special:
+            'Der Gerätewagen Technik und Sicherheit ist bei Großeinsätzen für die technische und logistische Unterstützung anderer Einsatzgruppen zuständig.',
+    },
+    172: {
+        caption: 'LKW Technik (Notstrom)',
+        color: '#a34100',
+        credits: 30_000,
+        coins: 25,
+        staff: {
+            min: 2,
+            max: 6,
+            training: {
+                Rettungsdienst: {
+                    disaster_response_technology: {
+                        min: 1,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [12],
+        special:
+            'Der LKW Technik (Notstrom) unterstützt andere SEG-Einheiten mit Strom und Licht. Dementsprechend ist er ein wichtiger Bestandteil der technischen Infrastruktur bei SEG-Einsätzen.',
+    },
+    173: {
+        caption: 'MTW TeSi',
+        color: '#a34100',
+        credits: 20_000,
+        coins: 25,
+        staff: {
+            min: 1,
+            max: 7,
+            training: {
+                Rettungsdienst: {
+                    disaster_response_technology: {
+                        min: 1,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [12],
+        special:
+            'Der MTW Technik und Sicherheit transportiert Einsatzkräfte der Gruppe Technik und Sicherheit.',
+    },
+    174: {
+        caption: 'Anh TeSi',
+        color: '#a34100',
+        credits: 10_000,
+        coins: 15,
+        staff: {
+            min: 0,
+            max: 0,
+            training: {
+                Rettungsdienst: {
+                    disaster_response_technology: {
+                        min: 2,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [12],
+        isTrailer: true,
+        tractiveVehicles: [171],
+        special:
+            'Der Anhänger Technik und Sicherheit wird bei SEG-Einsätzen für den Transport von technischer Ausrüstung und den Infrastrukturaufbau genutzt. Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (GW TeSi)',
+    },
+    175: {
+        caption: 'NEA50',
+        color: '#a34100',
+        credits: 10_000,
+        coins: 15,
+        staff: {
+            min: 0,
+            max: 0,
+            training: {
+                Rettungsdienst: {
+                    disaster_response_technology: {
+                        min: 2,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [12],
+        isTrailer: true,
+        tractiveVehicles: [172],
+        special:
+            "Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (LKW Technik (Notstrom)). Ist gleichwertig mit den anderen beiden NEA50's",
     },
 } satisfies Record<number, InternalVehicle>;

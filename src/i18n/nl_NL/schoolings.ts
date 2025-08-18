@@ -255,4 +255,36 @@ export default {
             key: 'gw_wasserrettung',
         },
     ],
+    Militair: [
+        {
+            caption: 'Marechaussee',
+            duration: '4 Dagen',
+            staffList: 'Marechaussee',
+            key: 'military_police',
+        },
+        {
+            caption: 'Mobiele Eenheid',
+            duration: '4 Dagen',
+            staffList: 'Mobiele Eenheid',
+            key: 'police_mobiele_eenheid',
+        },
+        {
+            caption: 'Bomontmanteling',
+            duration: '7 Dagen',
+            staffList: 'Bomontmanteling',
+            key: 'bomb_disposal',
+        },
+        {
+            caption: 'Duiker Defensie',
+            duration: '7 Dagen',
+            staffList: 'Duiker Defensie',
+            key: 'bomb_disposal_diver',
+        },
+        {
+            caption: 'Hondengeleider EOD',
+            duration: '7 Dagen',
+            staffList: 'Hondengeleider EOD',
+            key: 'bomb_disposal_dogs',
+        },
+    ],
 } satisfies SchoolingsBySchool;

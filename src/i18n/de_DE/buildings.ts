@@ -44,7 +44,7 @@ export default {
                     parkingLotReservations: [
                         [
                             47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119,
-                            142, 164,
+                            142, 164, 168, 169,
                         ],
                     ],
                     cannotDisable: true,
@@ -74,7 +74,7 @@ export default {
                 parkingLotReservations: [
                     [
                         47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119, 142,
-                        164,
+                        164, 168, 169,
                     ],
                 ],
                 cannotDisable: true,
@@ -132,7 +132,7 @@ export default {
                     parkingLotReservations: [
                         [
                             47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119,
-                            142, 164,
+                            142, 164, 168, 169,
                         ],
                     ],
                     cannotDisable: true,
@@ -191,7 +191,7 @@ export default {
                 parkingLotReservations: [
                     [
                         47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119, 142,
-                        164,
+                        164, 168, 169,
                     ],
                 ],
                 cannotDisable: true,
@@ -245,6 +245,27 @@ export default {
                 parkingLotReservations: [[162, 163]],
                 unlocksVehicleTypes: [162, 163, 164],
             },
+            ...multiplyExtension(
+                {
+                    caption: 'Abrollbehälter-Stellplatz',
+                    credits: 150_000,
+                    coins: 20,
+                    duration: '7 Tage',
+                    isVehicleExtension: true,
+                    givesParkingLots: 1,
+                    unlocksVehicleTypes: [
+                        47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119,
+                    ],
+                    parkingLotReservations: [
+                        [
+                            47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119,
+                            142, 164, 168, 169,
+                        ],
+                    ],
+                    cannotDisable: true,
+                },
+                2
+            ),
         ],
         storageUpgrades: {
             initial_containers: {
@@ -301,6 +322,14 @@ export default {
                 coins: 15,
                 duration: '3 Tage',
                 requiredStorageUpgrades: ['additional_containers_5'],
+            },
+            additional_containers_7: {
+                caption: 'Zusätzlicher Lagerraum',
+                additionalStorage: 30,
+                credits: 100_000,
+                coins: 15,
+                duration: '3 Tage',
+                requiredStorageUpgrades: ['additional_containers_6'],
             },
         },
         levelcost: ['1. 10.000', '2. 50.000', '3.-19. 100.000'],
@@ -1211,6 +1240,23 @@ export default {
                     [133],
                 ],
                 unlocksVehicleTypes: [130, 131, 132, 133],
+                unlockedVehiclesOnReservedLotsOnly: true,
+            },
+            {
+                caption: 'Technik und Sicherheit',
+                credits: 200_000,
+                coins: 25,
+                duration: '5 Tage',
+                isVehicleExtension: true,
+                givesParkingLots: 5,
+                parkingLotReservations: [
+                    [171, 172, 173, 174, 175],
+                    [171, 172, 173, 174, 175],
+                    [171, 172, 173, 174, 175],
+                    [171, 172, 173, 174, 175],
+                    [171, 172, 173, 174, 175],
+                ],
+                unlocksVehicleTypes: [171, 172, 173, 174, 175],
                 unlockedVehiclesOnReservedLotsOnly: true,
             },
         ],

@@ -95,14 +95,16 @@ export default {
                 ['Tanklöschfahrzeuge']: [
                     17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 87, 121,
                 ],
-                Schlauchwagen: [11, 13, 14, 15, 16, 143],
+                Schlauchwagen: [11, 13, 14, 15, 16],
                 Sonderfahrzeuge: [
-                    2, 3, 4, 5, 10, 12, 27, 33, 34, 36, 53, 57, 114, 115, 118,
-                    120, 126, 128, 129,
+                    2, 3, 4, 5, 10, 12, 27, 33, 34, 36, 53, 57, 114, 118, 120,
+                    126, 128, 129, 166, 167,
                 ],
                 ['WLF & Abrollbehälter']: [
                     46, 47, 48, 49, 54, 62, 71, 77, 78, 108, 116, 117, 119, 142,
+                    169, 170,
                 ],
+                Anhänger: [115, 143, 168],
                 Flughafenfeuerwehr: [75, 76],
                 Werkfeuerwehr: [83, 84, 85, 86],
                 Logistikfahrzeuge: [104, 105, 106, 107],
@@ -124,6 +126,7 @@ export default {
                 'Bergrettung': [
                     149, 150, 151, 152, 153, 154, 155, 156, 157, 158,
                 ],
+                'TeSi': [171, 172, 173, 174, 175],
             },
             color: '#ffa500',
         },
@@ -277,6 +280,8 @@ export default {
         'Brücke',
         'U-Bahn Station',
         'Eisenbahntunnel',
+        'Zoo',
+        'Kohlekraftwerk',
     ],
     only_alliance_missions: [41, 43, 59, 75, 99, 207, 221, 222, 256, 350],
     transfer_missions: [147, 613],

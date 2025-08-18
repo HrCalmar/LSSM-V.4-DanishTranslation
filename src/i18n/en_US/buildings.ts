@@ -88,7 +88,7 @@ export default {
                 unlocksVehicleTypes: [66, 67, 68, 73],
             },
             {
-                caption: 'Water Rescue Expansion',
+                caption: 'Water Rescue Extension',
                 credits: 100_000,
                 coins: 20,
                 duration: '7 Days',
@@ -169,7 +169,7 @@ export default {
                 coins: 10,
                 duration: '5 Days',
             },
-            additional_containers_1: {
+            additional_containers: {
                 caption: 'Additional Storage Room',
                 additionalStorage: 30,
                 credits: 50_000,
@@ -188,26 +188,42 @@ export default {
             additional_containers_3: {
                 caption: 'Additional Storage Room',
                 additionalStorage: 30,
-                credits: 100_000,
-                coins: 15,
+                credits: 50_000,
+                coins: 12,
                 duration: '3 Days',
                 requiredStorageUpgrades: ['additional_containers_2'],
             },
             additional_containers_4: {
                 caption: 'Additional Storage Room',
                 additionalStorage: 30,
-                credits: 100_000,
-                coins: 15,
+                credits: 50_000,
+                coins: 12,
                 duration: '3 Days',
                 requiredStorageUpgrades: ['additional_containers_3'],
             },
             additional_containers_5: {
                 caption: 'Additional Storage Room',
                 additionalStorage: 30,
-                credits: 100_000,
-                coins: 15,
+                credits: 50_000,
+                coins: 12,
                 duration: '3 Days',
                 requiredStorageUpgrades: ['additional_containers_4'],
+            },
+            additional_containers_6: {
+                caption: 'Additional Storage Room',
+                additionalStorage: 30,
+                credits: 50_000,
+                coins: 12,
+                duration: '3 Days',
+                requiredStorageUpgrades: ['additional_containers_5'],
+            },
+            additional_containers_7: {
+                caption: 'Additional Storage Room',
+                additionalStorage: 30,
+                credits: 50_000,
+                coins: 15,
+                duration: '3 Days',
+                requiredStorageUpgrades: ['additional_containers_6'],
             },
         },
         levelcost: ['1. 10.000', '2. 50.000', '3.-39. 100.000'],
@@ -465,7 +481,7 @@ export default {
                 unlocksVehicleTypes: [56],
             },
             {
-                caption: 'Water Police Expansion',
+                caption: 'Water Police Extension',
                 credits: 200_000,
                 coins: 35,
                 duration: '7 Days',
@@ -882,7 +898,7 @@ export default {
                 unlocksVehicleTypes: [66, 67, 68, 73],
             },
             {
-                caption: 'Water Rescue Expansion',
+                caption: 'Water Rescue Extension',
                 credits: 100_000,
                 coins: 20,
                 duration: '7 Days',
@@ -945,7 +961,7 @@ export default {
                 coins: 10,
                 duration: '5 Days',
             },
-            additional_containers_1: {
+            additional_containers: {
                 caption: 'Additional Storage Room',
                 additionalStorage: 30,
                 credits: 50_000,
@@ -1046,7 +1062,7 @@ export default {
                 unlocksVehicleTypes: [56],
             },
             {
-                caption: 'Water Police Expansion',
+                caption: 'Water Police Extension',
                 credits: 200_000,
                 coins: 35,
                 duration: '7 Days',

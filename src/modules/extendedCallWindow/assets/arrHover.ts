@@ -51,6 +51,7 @@ export default (
         const specsTable = document.createElement('table');
         specsTable.style.width = '100%';
         specsTable.style.color = 'black';
+        specsTable.style.whiteSpace = 'break-spaces';
         const specsHeader = document.createElement('thead');
         specsHeader.style.backgroundColor = 'limegreen';
         const specsHeadRow = specsHeader.insertRow();
@@ -338,7 +339,10 @@ export default (
                     if (available < amount)
                         rowElement.classList.add('bg-danger');
                     rowElement.insertCell().textContent = `${amount.toLocaleString()}x`;
-                    rowElement.insertCell().textContent = name;
+                    rowElement.insertCell().innerHTML = name.replace(
+                        /(?<!,) /gu,
+                        '&nbsp;'
+                    );
                     rowElement.insertCell().textContent =
                         available.toLocaleString();
                     const max = Math.floor(available / amount);
