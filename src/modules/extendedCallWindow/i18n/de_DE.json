@@ -58,7 +58,7 @@
                 "texts": ["THW-Einsatzkräfte"],
                 "vehicles": [
                     39, 40, 41, 42, 45, 65, 69, 93, 100, 109, 122, 123, 124,
-                    125, 144, 145, 147, 148
+                    125, 144, 145, 147, 148, 176, 177
                 ]
             },
             {
@@ -97,7 +97,8 @@
             "96": [61],
             "110": [41],
             "116": [46],
-            "146": [145]
+            "146": [145],
+            "178": [176]
         },
         "vehicle": "Fahrzeugtyp",
         "vehiclesByRequirement": [
@@ -111,7 +112,7 @@
                     "Betreuungs- und Verpflegungsausstattung",
                     "Betreuungs- und Verpflegungsausstattungen"
                 ],
-                "vehicles": [130, 132]
+                "vehicles": [130, 132, 139, 141, 178]
             },
             { "texts": ["Boot", "Boote"], "vehicles": [66, 67, 68, 70, 71] },
             { "texts": ["Bt-Kombi", "Bt-Kombis"], "vehicles": [131] },
@@ -288,7 +289,7 @@
                 "texts": ["Schmutzwasserpumpe", "Schmutzwasserpumpen"],
                 "vehicles": [101, 102]
             },
-            { "texts": ["THW-Einsatzleitung (MTW TZ)"], "vehicles": [40] },
+            { "texts": ["THW-Einsatzleitung (MTW-TZ)"], "vehicles": [40] },
             { "texts": ["MzGW (FGr N)"], "vehicles": [41] },
             { "texts": ["Teleskopmast", "Teleskopmasten"], "vehicles": [85] },
             { "texts": ["Turbolöscher"], "vehicles": [86] },
@@ -296,8 +297,8 @@
             { "texts": ["Wasserwerfer"], "vehicles": [72] },
             { "texts": ["Zivilstreifenwagen"], "vehicles": [98] },
             { "texts": ["leBefKw"], "vehicles": [35] },
-            { "texts": ["NEA50"], "vehicles": [110, 111, 112, 113, 175] },
-            { "texts": ["NEA200"], "vehicles": [112, 113] },
+            { "texts": ["NEA50"], "vehicles": [110, 111, 112, 113, 175, 179] },
+            { "texts": ["NEA200"], "vehicles": [112, 113, 180] },
             { "texts": ["MzGW SB"], "vehicles": [109] },
             { "texts": ["FüKW (THW)"], "vehicles": [144] },
             { "texts": ["FüKomKW"], "vehicles": [145] },
@@ -346,8 +347,8 @@
                 "vehicles": [162, 163, 164]
             },
             { "texts": ["LauKw"], "vehicles": [165] },
-            { "texts": ["MTW TeSi"], "vehicles": [173] },
-            { "texts": ["GW TeSi"], "vehicles": [171] },
+            { "texts": ["MTW-TeSi"], "vehicles": [173] },
+            { "texts": ["GW-TeSi"], "vehicles": [171] },
             { "texts": ["Anh TeSi"], "vehicles": [174] }
         ],
         "water": "l. Wasser"

@@ -2944,7 +2944,7 @@ export default {
         icon: 'car-side',
         possibleBuildings: [12],
         isTrailer: true,
-        tractiveVehicles: [171],
+        tractiveVehicles: [171, 173],
         special:
             'Der Anhänger Technik und Sicherheit wird bei SEG-Einsätzen für den Transport von technischer Ausrüstung und den Infrastrukturaufbau genutzt. Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (GW TeSi)',
     },
@@ -2970,5 +2970,100 @@ export default {
         tractiveVehicles: [172],
         special:
             "Es handelt sich um einen Anhänger, der ein Zugfahrzeug benötigt. (LKW Technik (Notstrom)). Ist gleichwertig mit den anderen beiden NEA50's",
+    },
+    176: {
+        caption: 'LKW 7 Lbw (FGr Log-V)',
+        color: '#36759e',
+        credits: 15_000,
+        coins: 25,
+        staff: {
+            min: 3,
+            max: 3,
+            training: {
+                THW: {
+                    thw_care_service: {
+                        min: 1,
+                    },
+                    care_service_equipment: {
+                        min: 2,
+                    },
+                },
+            },
+        },
+        icon: 'truck',
+        possibleBuildings: [9],
+        special: '',
+    },
+    177: {
+        caption: 'MTW-FGr Log-V',
+        color: '#36759e',
+        credits: 2500,
+        coins: 12,
+        staff: {
+            min: 5,
+            max: 5,
+            training: {
+                THW: {
+                    thw_care_service: {
+                        all: true,
+                    },
+                },
+            },
+        },
+        icon: 'car-side',
+        possibleBuildings: [9],
+    },
+    178: {
+        caption: 'Anh 12 Lbw (FGr Log-V)',
+        color: '#36759e',
+        credits: 5000,
+        coins: 12,
+        staff: {
+            min: 0,
+            max: 0,
+        },
+        icon: 'car-side',
+        possibleBuildings: [9],
+        isTrailer: true,
+        tractiveVehicles: [176],
+        special:
+            'Der Anh 12 Lbw (FGr Log-V) dient zur Verpflegung von Einsatzkräften und Betroffenen und ist Teil der Betreuungs- und Verpflegungsausstattung. Er hat somit dieselbe Funktion wie der Anh FKH der Feuerwehr.',
+    },
+    179: {
+        caption: 'AB-NEA50',
+        color: '#f60303',
+        credits: 5000,
+        coins: 12,
+        staff: {
+            min: 0,
+            max: 0,
+        },
+        icon: 'square',
+        special: '',
+        possibleBuildings: [0, 18],
+        isTrailer: true,
+        tractiveVehicles: [46],
+    },
+    180: {
+        caption: 'AB-NEA200',
+        color: '#fd090f',
+        credits: 8000,
+        coins: 12,
+        staff: {
+            min: 0,
+            max: 0,
+            training: {
+                Feuerwehr: {
+                    energy_supply: {
+                        min: 1,
+                    },
+                },
+            },
+        },
+        icon: 'square',
+        special: '',
+        isTrailer: true,
+        tractiveVehicles: [46],
+        possibleBuildings: [0],
     },
 } satisfies Record<number, InternalVehicle>;

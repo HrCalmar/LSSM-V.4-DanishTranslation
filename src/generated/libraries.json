@@ -2,22 +2,22 @@
     "@fortawesome/fontawesome-free": {
         "icon": "https://avatars.githubusercontent.com/u/1505683",
         "url": "https://fontawesome.com",
-        "version": "6.7.2"
+        "version": "7.1.0"
     },
     "@fortawesome/fontawesome-svg-core": {
         "icon": "https://avatars.githubusercontent.com/u/1505683",
         "url": "https://fontawesome.com",
-        "version": "6.7.2"
+        "version": "7.1.0"
     },
     "@fortawesome/free-regular-svg-icons": {
         "icon": "https://avatars.githubusercontent.com/u/1505683",
         "url": "https://fontawesome.com",
-        "version": "6.7.2"
+        "version": "7.1.0"
     },
     "@fortawesome/free-solid-svg-icons": {
         "icon": "https://avatars.githubusercontent.com/u/1505683",
         "url": "https://fontawesome.com",
-        "version": "6.7.2"
+        "version": "7.1.0"
     },
     "@fortawesome/vue-fontawesome": {
         "icon": "https://avatars.githubusercontent.com/u/1505683",
@@ -25,9 +25,9 @@
         "version": "2.0.10"
     },
     "@primer/octicons": {
-        "icon": "https://primer.style/icons/icon-512x512.png",
+        "icon": "https://avatars.githubusercontent.com/u/7143434",
         "url": "https://primer.style/octicons",
-        "version": "19.15.5"
+        "version": "19.21.1"
     },
     "@types/he": {
         "icon": "https://avatars.githubusercontent.com/u/3637556",
@@ -62,7 +62,7 @@
     "@types/node": {
         "icon": "https://avatars.githubusercontent.com/u/3637556",
         "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node",
-        "version": "22.17.1"
+        "version": "24.10.4"
     },
     "@types/pdfmake": {
         "icon": "https://avatars.githubusercontent.com/u/3637556",
@@ -161,7 +161,7 @@
         "version": "8.3.4"
     },
     "all-contributors-cli": {
-        "icon": "https://allcontributors.org/img/icons/android-icon-192x192.png",
+        "icon": "https://avatars.githubusercontent.com/u/46410174",
         "url": "https://github.com/all-contributors/all-contributors-cli#readme",
         "version": "6.26.1"
     },
@@ -186,7 +186,7 @@
     "emoji-toolkit": {
         "icon": "https://avatars.githubusercontent.com/u/6843823",
         "url": "https://www.joypixels.com",
-        "version": "9.0.1"
+        "version": "10.0.0"
     },
     "eslint": {
         "icon": "https://eslint.org/icon-512.png",
@@ -211,7 +211,7 @@
     },
     "eslint-plugin-jsdoc": {
         "url": "https://github.com/gajus/eslint-plugin-jsdoc#readme",
-        "version": "53.0.1"
+        "version": "61.5.0"
     },
     "eslint-plugin-markdownlint": {
         "url": "https://gitlab.com/pawelbbdrozd/eslint-plugin-markdownlint/-/blob/main/README.md",
@@ -229,7 +229,7 @@
     "eslint-plugin-tsdoc": {
         "icon": "https://tsdoc.org/images/site/favicon.ico",
         "url": "https://tsdoc.org/",
-        "version": "0.4.0"
+        "version": "0.5.0"
     },
     "eslint-plugin-unicorn": {
         "icon": "https://cloud.githubusercontent.com/assets/170270/18659176/1cc373d0-7f33-11e6-890f-0ba35362ee7e.jpg",
@@ -265,7 +265,7 @@
         "version": "9.1.7"
     },
     "js-yaml": {
-        "version": "4.1.0"
+        "version": "4.1.1"
     },
     "leaflet.heat": {
         "url": "https://github.com/Leaflet/Leaflet.heat",
@@ -305,7 +305,7 @@
     "prettier": {
         "icon": "https://prettier.io/icon.png",
         "url": "https://prettier.io",
-        "version": "3.6.2"
+        "version": "3.7.4"
     },
     "qrcode": {
         "url": "http://github.com/soldair/node-qrcode",
@@ -314,15 +314,15 @@
     "sass": {
         "icon": "https://sass-lang.com/assets/img/logos/logo.svg",
         "url": "https://github.com/sass/dart-sass",
-        "version": "1.90.0"
+        "version": "1.97.1"
     },
     "sass-loader": {
         "icon": "https://webpack.js.org/assets/icon-square-big.svg",
-        "url": "https://github.com/webpack-contrib/sass-loader",
-        "version": "16.0.5"
+        "url": "https://github.com/webpack/sass-loader",
+        "version": "16.0.6"
     },
     "semver": {
-        "version": "7.7.2"
+        "version": "7.7.3"
     },
     "showdown": {
         "icon": "https://avatars.githubusercontent.com/u/2754978",
@@ -330,7 +330,7 @@
         "version": "2.1.0"
     },
     "simple-git": {
-        "version": "3.28.0"
+        "version": "3.30.0"
     },
     "simpleheat": {
         "url": "https://github.com/mourner/simpleheat",
@@ -339,12 +339,12 @@
     "terser": {
         "icon": "https://terser.org/img/terser-square-logo.png",
         "url": "https://terser.org",
-        "version": "5.43.1"
+        "version": "5.44.1"
     },
     "ts-loader": {
         "icon": "https://webpack.js.org/assets/icon-square-big.svg",
         "url": "https://github.com/TypeStrong/ts-loader",
-        "version": "9.5.2"
+        "version": "9.5.4"
     },
     "ts-node": {
         "icon": "https://typestrong.org/ts-node/img/logo-icon.svg",
@@ -421,7 +421,7 @@
     "vue3": {
         "icon": "https://vuejs.org/logo.svg",
         "url": "https://github.com/vuejs/core/tree/main/packages/vue#readme",
-        "version": "3.5.18"
+        "version": "3.5.26"
     },
     "vuepress": {
         "icon": "https://v2.vuepress.vuejs.org/images/hero.png",
@@ -435,6 +435,6 @@
     "webpack": {
         "icon": "https://webpack.js.org/assets/icon-square-big.svg",
         "url": "https://github.com/webpack/webpack",
-        "version": "5.101.0"
+        "version": "5.104.1"
     }
 }

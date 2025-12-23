@@ -1,7 +1,7 @@
 # Contribution Guide
 You want to contribute to LSS-Manager? Here are some tips on how to contribute!
 
-**Hint**: There is a new guide available in our [Wiki](https://docs.lss-manager.de/en_US/contributing) that helps with translating. The content of this file will be merged with it soon.
+**Hint**: There is a new guide available in our [Wiki](https://docs.lss-manager.de/en_US/contributing.html) that helps with translating. The content of this file will be merged with it soon.
 
 **If you got any questions on contributing, you can contact LSSM Team at any time!**
 
@@ -106,4 +106,4 @@ Also each module contains a `docs` folder. Add a `xx_XX.md` file in there and st
 * Add the schooling to the main i18n file of your language.
     * If a new school is used, add a new key for the school.
 
-[FA]: https://fontawesome.com/icons?d=gallery&m=free
+[FA]: https://fontawesome.com/search?ic=free&o=r
